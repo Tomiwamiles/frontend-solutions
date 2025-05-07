@@ -1,0 +1,79 @@
+
+*{
+    box-sizing: content-box;
+    
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.banner{
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(0, 0%, 12%);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 5%;
+    width: 300px;
+
+}
+
+ .avater{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(../images/avatar-jessica.jpeg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter';
+    font-weight: 700;
+}
+h3{
+    color: hsl(75, 94%, 57%);
+    font-family: 'Inter';
+    font-weight: 600;
+}
+h5 {
+    color: hsl(0, 0%, 40%);
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.socials{
+    margin-top: 20px;
+}
+.socials div{
+    margin: 14px 15px;
+    padding: 10px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.socials div a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-family: 'Inter';
+    display: block;
+    font-size: 14px;
+}
+
+.socials div:hover{
+    background-color: hsl(75, 94%, 57%);
+    transform: scale(1.02);
+}
